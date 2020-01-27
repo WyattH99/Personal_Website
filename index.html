@@ -1,0 +1,302 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Wyatt Hansen | Computer Engineering</title>
+<meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="icon" type="image/x-icon" href="./favicon.ico">
+</head>
+<style>
+html {
+  scroll-behavior: smooth;
+  }
+a:hover {
+  color: green;
+}
+
+body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+.w3-row-padding img {margin-bottom: 12px}
+/* Set the width of the sidebar to 120px */
+.w3-sidebar {width: 120px;background: #222;}
+/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+#main {margin-left: 120px}
+#myNavBar {align-self: auto;}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Float four columns side by side */
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+
+/* Remove extra left and right margins, due to padding in columns */
+.row {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+}
+
+/* Responsive columns - one column layout (vertical) on small screens */
+@media only screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+  #main {margin-left: 0}
+}
+
+/* Remove margins from "page content" on small screens */
+/* @media only screen and (max-width: 600px) {#main {margin-left: 0}} */
+
+
+</style>
+<body class="w3-black">
+
+<!-- Icon Bar (Sidebar - hidden on small screens) -->
+<nav class="w3-sidebar w3-responsive w3-bar-block w3-small w3-hide-small w3-center">
+  <!-- Avatar image in top left corner -->
+  <img src="Head-BW.jpeg" style="width:100%">
+  <a href="#" class="w3-bar-item w3-button w3-padding-large w3-black">
+    <i class="fa fa-home w3-xxlarge"></i>
+    <p>HOME</p>
+  </a>
+  <a href="#about_me" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-user w3-xxlarge"></i>
+    <p>ABOUT ME</p>
+  </a>
+  <a href="#resume" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-newspaper-o w3-xxlarge"></i>
+    <p>RESUME</p>
+  </a>
+  <a href="#portfolio" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-codepen w3-xxlarge"></i>
+    <p>PORTFOLIO</p>
+  </a>
+  <a href="#service" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-handshake-o w3-xxlarge"></i>
+    <p>SERVICE</p>
+  </a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-paper-plane-o w3-xxlarge"></i>
+    <p>CONTACT</p>
+  </a>
+</nav>
+
+<!-- Navbar on small screens (Hidden on medium and large screens) -->
+<div class="w3-top w3-responsive w3-hide-large w3-hide-medium w3-" id="myNavbar">
+  <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-small">
+    <a href="#" class="w3-bar-item w3-button">HOME</a>
+    <a href="#about_me" class="w3-bar-item w3-button">ABOUT ME</a>
+    <a href="#resume" class="w3-bar-item w3-button">RESUME</a>
+    <a href="#portfolio" class="w3-bar-item w3-button">PORTFOLIO</a>
+    <a href="#service" class="w3-bar-item w3-button">SERVICE</a>
+    <a href="#contact" class="w3-bar-item w3-button">CONTACT</a>
+  </div>
+</div>
+
+
+<!-- Page Content -->
+<div class="w3-padding-large" id="main">
+
+  <!-- Header/Home -->
+  <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
+    <h1 class="w3-jumbo">Wyatt Hansen</h1>
+    <p>Computer Engineering Undergraduate at Texas A&M.</p>
+    <img src="Head-BW.jpeg" alt="boy" class="w3-image" width="500" height="555">
+  </header>
+
+
+  <!-- About Section -->
+  <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about_me">
+    <h2 class="w3-text-light-grey">About Me</h2>
+    <hr style="width:200px" class="w3-opacity">
+    <p>Computers have always piqued my interest, from coding, to gaming, to scientific discoveries, and
+      small personal projects like this website. I find the cutting edge of Computer Science (AI, Machine
+      Learning, and Robotics) all to be very interesting. These are the reasons that I have decided to pursue a
+      Computer Engineering degree from <a href="https://www.tamu.edu/" target="_blank">Texas A&M</a>. Any time that I can get extra time, I am using
+      my <a href="https://www.prusa3d.com/" target="_blank">3D-Printer</a>, investing in the stock market, watching the newest
+      <a href="https://www.youtube.com/user/BostonDynamics" target="_blank">Boston Dynamics</a> video,
+      or hanging with friends and family.  
+    </p>  
+  <!-- End About Section -->
+  </div>
+
+
+  <!-- Resume -->
+  <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="resume">
+    <h2 class="w3-text-light-grey">Resume</h2>
+    <hr style="width:200px" class="w3-opacity">
+    <p>I have had the privilege of having two engineering internships, holding leadership positions in
+      student-led organizations, and being a proud fighting Texas Aggie class of '21. My first internship
+      was at <a href="https://genesisdimensions.com/" target="_blank">Genesis Dimensions</a>; A company
+      that is revolutionizing the construction industry. My second internship was at
+      <a href="https://www.arringtonautomation.com/" target="_blank">Arrington Automation</a>; A company
+      that designs, develops, and installs Control Systems. I have leadership experience in a student-led
+      organization called BUILD. While these experiences give me a great platform to dive into a career in
+      Computer Engineering, I believe the best opportunities are still ahead of me. 
+    </p>
+    <div class="w3-hide-small w3-center">
+      <iframe src="WyattHansen_Resume.pdf" width="75%" height="500px" ></iframe>
+    </div>
+    <div class="w3-hide-large w3-hide-medium">
+      <button class="w3-button w3-light-grey w3-padding-large w3-section">
+        <i class="fa fa-download"></i><a href="WyattHansen_Resume.pdf">Download Resume</a>
+      </button>
+    </div>
+
+  </div>
+
+  
+  <!-- My Portfolio -->
+  <div>
+    <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="portfolio">
+    <h2 class="w3-padding-16 w3-text-light-grey">Portfolio</h2>
+    <hr style="width:200px" class="w3-opacity">
+    <h3 class="w3-text-light-grey">Projects</h3>
+    <div class="row">
+
+      <div class="column">
+        <div class="card">
+          <h4 class="w3-text-black">Drilling Failure</h4>
+          <p>- Developed an artificial neural network for Conoco Phillips that predicted
+            where a drilling failure would occur with 99.3% accuracy against test
+            datasets</p>
+          <p>- Launched demo through online web app that would
+            use the model on new data</p>
+          <p>• Python, TensorFlow, Keras, HTML, CSS, Flask </p>
+        </div>
+      </div>
+
+      <div class="column">
+        <div class="card">
+          <h4 class="w3-text-black">Memory Allocator</h4>
+          <p>- Implementation of a buddy-system memory manager</p>
+          <p>- The program allocates memory in blocks for applications to use accordingly
+            and accurately represents the memory allocation used in many OS kernels today
+          </p>
+          <p>• C++ </p>
+        </div>
+      </div>
+
+      <div class="column">
+        <div class="card">
+          <h4 class="w3-text-black">Client-Server Channel Communication</h4>
+          <p>- Client program that connects with a data-server over a
+            communication channel to transfer request packets</p>
+          <p>- Multi-threading capability allowed an increase in the speed of packet transfers</p>
+          <p>• C++ </p>
+        </div>
+      </div>
+
+      <div class="column">
+        <div class="card">
+          <h4 class="w3-text-black">Micro-Mouse</h4>
+          <p>- Designing the hardware and software for an autonomous robot to traverse a maze</p>
+          <p>- Optimizing it to be as small as possible while still implementing the fastest algorithm to solve the maze</p>
+          <p>(currently in progress)</p>
+          <p>• C++, Python </p>
+        </div>
+      </div>
+    </div>
+    <h3 class="w3-text-light-grey">Future Project</h3>
+    <p>
+      My next project will be an algorithmic trading platform. When I first started trading in
+      2019, I saw the potential of automating the whole task. This task is not easy to automate,
+      and such many quantitative funds are operating in this space of Financial Technology (FinTech).
+      My goal with this project is to be able to create a platform that makes it easy for someone to
+      create a "watchlist" and trade on those stocks, given the specific criteria.
+    </p>
+
+  <!-- End My Portfolio -->  
+  </div>
+
+    
+  <!-- My Service -->
+  <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="service">
+    <h2 class="w3-padding-24 w3-text-light-grey">Service</h2>
+    <hr style="width:200px" class="w3-opacity">
+    <h3 class="w3-text-light-grey">Texas A&M Datathon</h3>
+    <p>During the <a href="https://tamudatathon.com/" target="_blank">TAMU Datathon</a>, students spend
+      one weekend in a group of four to solve and develop a solution to a data science problem.
+      Organizations and companies that sponsor the event such as Major League Hacking, Goldman Sachs and
+      Conoco Phillips give the students problems, data sets, and workshops to further their progress.
+      Participating in this event allowed me to develop real-world qualities such as group
+      collaboration, leadership skills, and experience working under pressure.
+    </p>
+    <h3 class="w3-text-light-grey">Aggie Coding Club</h3>
+    <p><a href="http://aggiecodingclub.com/" target="_blank">Aggie Coding Club</a> (ACC) is a student-led
+      project-oriented organization. ACC brings together the best and brightest students in Computer Science
+      to work together. Projects are student-designed, organized, and managed.  These projects can range from
+      mobile apps to web development and building robots. Managing one of these projects allowed me to gain
+      experience that a classroom doesn't provide.
+    </p>
+    <h3 class="w3-text-light-grey">BUILD</h3>
+    <p><a href="https://www.buildtamu.com/" target="_blank">BUILD</a> is a
+      student-led and run philanthropist group that constructs Medical Clinics out of shipping containers
+      for third-world countries. BUILD has over 20 Medical Clinics around the world, helping those in need
+      every day while working towards its mission of bringing the student body together. I had the opportunity
+      to participate and become the Design Command Team Leader. Since being in BUILD, I have personally seen
+      ten medical clinics from the start through completion.
+    </p>
+    
+    
+  <!-- End My Service -->
+  </div>
+
+
+  <!-- Contact Section -->
+  <div class="w3-padding-64 w3-content w3-text-grey" id="contact">
+    <h2 class="w3-text-light-grey">Contact</h2>
+    <hr style="width:200px" class="w3-opacity">
+
+    <div class="w3-section">
+      <p><i class="fa fa-space-shuttle fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Houston, Texas</p>
+      <p><i class="fa fa-calculator fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> (832)-655-4741</p>
+      <p><i class="fa fa-envelope-o fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> WyattH99@tamu.edu</p>
+      <p><i class="fa fa-linkedin fa-fw w3-text-white w3-xxlarge w3-margin-right "> </i><a href="https://www.linkedin.com/in/wyatt99/" target="_blank" class="w3-hover-text-green">LinkedIn</a></p>
+      <p><i class="fa fa-github fa-fw w3-text-white w3-xxlarge w3-margin-right "> </i><a href="https://github.com/WyattH99" target="_blank" class="w3-hover-text-green">GitHub</a></p>
+    </div><br>
+    <p>Lets get in touch!</p><br>
+    <p class="w3-medium">Sources: <a href="https://www.w3schools.com/w3css/default.asp" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+
+  <!-- End Contact Section -->
+  </div>
+
+
+<!-- END PAGE CONTENT -->
+</div>
+
+</body>
+</html>
+
+
