@@ -30,15 +30,15 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
 /* Set the width of the sidebar to 120px */
 .w3-sidebar {width: 120px;background: #222;}
 /* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
-#main {margin-left: 120px}
+#main {margin-left: 120px;}
 #myNavBar {align-self: auto;}
 
 * {
   box-sizing: border-box;
 }
 
-/* body {
-  font-family: Arial, Helvetica, sans-serif;
+/* .div {
+  max-width: 1250px;
 } */
 
 /* Float four columns side by side */
@@ -77,7 +77,7 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
 }
 
 /* Remove margins from "page content" on small screens */
-/* @media only screen and (max-width: 600px) {#main {margin-left: 0}} */
+@media only screen and (max-width: 600px) {#main {margin-left: 0}}
 
 
 </style>
@@ -138,7 +138,7 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
 
 
   <!-- About Section -->
-  <div class="w3-content w3-justify w3-text-light-grey w3-padding-64" id="about_me">
+  <div class="w3-content w3-justify w3-text-light-grey w3-padding-16" style="max-width:1200px" id="about_me">
     <h2 class="w3-text-light-grey">About Me</h2>
     <hr style="width:200px" class="w3-opacity">
     <p>Computers have always piqued my interest, from coding, to gaming, to scientific discoveries, and
@@ -154,7 +154,7 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
 
 
   <!-- Resume -->
-  <div class="w3-content w3-justify w3-text-light-grey w3-padding-64" id="resume">
+  <div class="w3-content w3-justify w3-text-light-grey w3-padding-16" style="max-width:1200px" id="resume">
     <h2 class="w3-text-light-grey">Resume</h2>
     <hr style="width:200px" class="w3-opacity">
     <p>I have had the privilege of having two engineering internships, holding leadership positions in
@@ -180,7 +180,7 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
   
   <!-- My Portfolio -->
   <div>
-    <div class="w3-content w3-justify w3-text-light-grey w3-padding-64" id="portfolio">
+    <div class="w3-content w3-justify w3-text-light-grey w3-padding-16" style="max-width:1200px" id="portfolio">
     <h2 class="w3-padding-16 w3-text-light-grey">Portfolio</h2>
     <hr style="width:200px" class="w3-opacity">
     <h3 class="w3-text-light-grey">Projects</h3>
@@ -189,7 +189,6 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
       <div class="column">
         <div class="card">
           <h4 class="w3-text-black">Drilling Failure</h4>
-          <hr style="width:200px" class="w3-opacity-max w3-black">
           <p>- Developed an artificial neural network for Conoco Phillips that predicted
             where a drilling failure would occur with 99.3% accuracy against test
             datasets</p>
@@ -202,7 +201,6 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
       <div class="column">
         <div class="card">
           <h4 class="w3-text-black">Memory Allocator</h4>
-          <hr style="width:200px" class="w3-opacity">
           <p>- Implementation of a buddy-system memory manager</p>
           <p>- The program allocates memory in blocks for applications to use accordingly
             and accurately represents the memory allocation used in many OS kernels today
@@ -214,7 +212,6 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
       <div class="column">
         <div class="card">
           <h4 class="w3-text-black">Client-Server Channel Communication</h4>
-          <hr style="width:200px" class="w3-opacity">
           <p>- Client program that connects with a data-server over a
             communication channel to transfer request packets</p>
           <p>- Multi-threading capability allowed an increase in the speed of packet transfers</p>
@@ -225,7 +222,6 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
       <div class="column">
         <div class="card">
           <h4 class="w3-text-black">Micro-Mouse</h4>
-          <hr style="width:200px" class="w3-opacity">
           <p>- Designing the hardware and software for an autonomous robot to traverse a maze</p>
           <p>- Optimizing it to be as small as possible while still implementing the fastest algorithm to solve the maze</p>
           <p>(currently in progress)</p>
@@ -247,7 +243,7 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
 
     
   <!-- My Service -->
-  <div class="w3-content w3-justify w3-text-light-grey w3-padding-64" id="service">
+  <div class="w3-content w3-justify w3-text-light-grey w3-padding-16" style="max-width:1200px" id="service">
     <h2 class="w3-padding-24 w3-text-light-grey">Service</h2>
     <hr style="width:200px" class="w3-opacity">
     <h3 class="w3-text-light-grey">Texas A&M Datathon</h3>
@@ -280,13 +276,12 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
 
 
   <!-- Contact Section -->
-  <div class="w3-padding-64 w3-content w3-text-light-grey" id="contact">
+  <div class="w3-content w3-text-light-grey w3-padding-16" style="max-width:1200px" id="contact">
     <h2 class="w3-text-light-grey">Contact</h2>
     <hr style="width:200px" class="w3-opacity">
 
     <div class="w3-section">
       <p><i class="fa fa-space-shuttle fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Houston, Texas</p>
-      <p><i class="fa fa-calculator fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> (832)-655-4741</p>
       <p><i class="fa fa-envelope-o fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> WyattH99@tamu.edu</p>
       <p><i class="fa fa-linkedin fa-fw w3-text-white w3-xxlarge w3-margin-right "> </i><a href="https://www.linkedin.com/in/wyatt99/" target="_blank" class="w3-hover-text-green">LinkedIn</a></p>
       <p><i class="fa fa-github fa-fw w3-text-white w3-xxlarge w3-margin-right "> </i><a href="https://github.com/WyattH99" target="_blank" class="w3-hover-text-green">GitHub</a></p>
